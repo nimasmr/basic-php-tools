@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'one';
+    src: url(../font/GeologicaRoman-Light.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'two';
+    src: url(../font/GeologicaRoman-SemiBold.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'three';
+    src: url(../font/GeologicaRoman-Medium.ttf)format('truetype');
+}
+#bg-center{ 
+    background: #000000;
+}
+#bg-center-card{
+    background: #282b32;
+}
+.bg-top{
+    background: #3c3f46;
+    color: #01B26A;
+    font-size: 20px;
+    border-radius:10px ;
+    margin: 15px 20px 0 20px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px 0px #282B32;
+    filter: drop-shadow(5px 5px 5px #282B32);
+}
+.bg-card{
+    background: #1F2125;
+    border: #222428;
+    padding: 20px;
+    font-size: 15px;
+}
+.mr-b{
+    margin-bottom: 10px;
+}
+
+.bg-one{
+    background: #3c3f46;
+    color: #01B26A;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 1s;
+}
+.bg-one:hover{
+    background-color: #000000;
+    color: white;
+}
+.bg-button{
+    background: #1E2734;
+}
+.bg-submit{
+    background-color: #D21312;
+    padding: 10px;
+    color: #3c3f46;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 1s;
+
+}
+.bg-submit:hover{
+    background-color: #000000;
+    color: white;
+}
+.text-a{
+    color: #D21312;
+}
+
+.font-a{
+    font-family: 'one';
+}
+.font-b{
+    font-family: 'two';
+}
+.font-c{
+    font-family: 'three';
+}
+
+.height{
+    height: 100%;
+}
+
